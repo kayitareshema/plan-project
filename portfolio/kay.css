@@ -1,0 +1,13 @@
+#p1{
+    color: green;
+    background-image: url(/image/bebe.webp);
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin: 30px  30px 400px 30px;
+    border-top: solid green;
+    border-right: dotted red;
+    border-bottom: solid cyan;
+    border-left: solid blue;
+    padding: 50px;
+}

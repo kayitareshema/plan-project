@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <center>
+  <form action="index.html" method="post" name="form" onsubmit="return validated()">
+    <h1 class="vv">Login</h1>
+    <div class="form">
+    <label for="username">User Name or Phone</label>
+    <input type="text"autocomplele="off" name="email" placeholder="Username"class="input">
+    <span id="name_error"> Please full up your email or phone</span>
+    <label for="Password">Password:</label>
+    <input type="Password" name="Password" placeholder="Password"class="input">
+    <span id="Password_error"> Please full up your email or phone</span>
+    <!-- <input type="submit" value="Login" name="login" class="btno"> -->
+    <button type="submit">Login</button>
+</div>
+  </form>
+</center>
+</body>
+<script src="validation.js"></script>
+</html>

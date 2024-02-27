@@ -1,0 +1,39 @@
+@media(max-width:1010px){
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+}
+@media(max-width:768px){
+    nav{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        gap: 45rem;
+        align-items: center;
+        text-align: center;
+    }
+    .logo h2{
+        font-size: 3rem;
+        display: flex;
+        background-color:chocolate;
+        width:100%;
+    }
+    .link-container i{
+        visibility: visible;
+        font-size: 2rem;
+        /* background-color: red; */
+        transition: all 0s;
+    }
+    .link-container i:hover ul li{
+        background-color: black;
+    }
+    .link-container .nav-link{
+        visibility: hidden;
+        transition: all 0s;
+    }
+    .link-container .btn {
+        visibility: hidden;
+    }
+}
