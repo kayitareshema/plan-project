@@ -112,27 +112,38 @@ position: relative;
     align-items: center;
     height: 100vh;
 }
-/* .home img{
+.home-card{
+    background: yellowgreen;
+}
+.home img{
     width: 100%;
-    height: 100%;
+    height: 780px;
 
-} */
+}
 .home h1{
     color: aliceblue;
     padding: 3rem;
     font-size: 3rem;
+    position: absolute;
+    top: 50%;
    
 }
 .home p{
 color: aliceblue;
-font-size: 1.5rem;
+font-size: 2rem;
+position: absolute;
+top: 65%;
+font-weight: bold;
 
 }
 .home a{
+    position: absolute;
+    font-weight: 700;
 font-size: 3rem;
 text-decoration: none;
 color: rgb(230, 4, 147);
 transition: all 0.5s;
+top: 85%;
 }
 .home a:hover{
 color: gold;
